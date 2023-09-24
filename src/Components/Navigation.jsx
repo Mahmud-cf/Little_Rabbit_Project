@@ -30,7 +30,7 @@ const Navigation = () => {
           <Nav className="">
             
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#mint">Minting</Nav.Link>
+            <Nav.Link href="#mint">Tokenomics</Nav.Link>
 
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#artworks">Collection</Nav.Link>

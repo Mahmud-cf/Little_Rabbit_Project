@@ -24,6 +24,7 @@ const Footer = () => {
                         <a target='blank' href="https://twitter.com/LTRBTtwt"><FaTwitter/></a>
                         <a target='blank' href="https://t.me/littlerabbitchat"><FaTelegramPlane /></a>
                         <a target='blank' href="https://littlerabbitofficial.medium.com/"><FaMedium /></a>
+                        <a target='blank' href=" https://t.me/littlerabbitann"><FaTelegramPlane /></a>
                     </div>
                     </div>
                     <div className="copyright-wrapper">

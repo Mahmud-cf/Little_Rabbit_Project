@@ -23,7 +23,7 @@ function Home() {
   return (
     <div>
       <div className="container-fluid home-page-wrapper">
-        <div className="home-header-wrapper">
+        <div className="home-header-wrapper" id="home">
           <Navigation />
           <div className="container">
             <div className="row">
@@ -116,7 +116,7 @@ function Home() {
         <div className="container-fluid">
           <div className="container">
             <h5 className="text-center powerd-by-title" style={{letterSpacing:'1px'}} >
-            POWERED BY AMAZING INVESTORS:
+            Listed on :
             </h5>
             <div className="powerd-by-item-wrapper">
               <ListedItem />

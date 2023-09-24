@@ -148,6 +148,9 @@
     .footer .footer-top p{
         font-size: 21px;
     }
+    .tocenomics-details-wrapper .token-list .token-list-item{
+        margin-top:.7rem;
+    }
 }
 @media only screen and (min-width:576px) and (max-width:767px){
     *{
@@ -609,5 +612,14 @@
     }
     .leats-start-shape-wrapper .leats-start-shape-4 {
         right: 9%;
+    }
+    .tocenomics-details-wrapper h2{
+        font-size: 30px;
+    }
+    .tocenomics-details-wrapper{
+        margin-left:1rem;
+    }
+    .tocenomics-section-wrapper{
+        margin-top:2rem;
     }
 }

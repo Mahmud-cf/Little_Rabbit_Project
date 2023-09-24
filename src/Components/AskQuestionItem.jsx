@@ -4,69 +4,22 @@ function AskQuestionItem() {
   return (
     <Accordion defaultActiveKey="0" flush>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>What is Nerko's NFT Collection?</Accordion.Header>
+        <Accordion.Header>What is the smart contract?</Accordion.Header>
         <Accordion.Body>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat proident.
-          </p>
-          <p>
-            Voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat proident.
+          Is a term used to describe a computer protocol that facilitates a contract or agreement between one party and another without going through a third party. Such a smart contract protocol must be able to verify the implementation of the contract recipient's obligations from an agreement.
           </p>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>How we can buy and invest NFT? </Accordion.Header>
+        <Accordion.Header>Where can I buy Little Rabbit coin? </Accordion.Header>
         <Accordion.Body>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat proident.
+          For now you can buy it on pancakeswap, we are still in the development process, and we plan to trade our coins in the big market.
           </p>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="2">
-        <Accordion.Header>Why we should choose Nerko's NFT? </Accordion.Header>
-        <Accordion.Body>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat proident.
-          </p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="3">
-        <Accordion.Header>Where we can buy and sell NFts? </Accordion.Header>
-        <Accordion.Body>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat proident.
-          </p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="4">
-        <Accordion.Header>How secure is this token?</Accordion.Header>
-        <Accordion.Body>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat proident.
-          </p>
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="5">
-        <Accordion.Header>What is your contract address? </Accordion.Header>
-        <Accordion.Body>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat proident.
-          </p>
-        </Accordion.Body>
-      </Accordion.Item>
+      
     </Accordion>
   );
 }

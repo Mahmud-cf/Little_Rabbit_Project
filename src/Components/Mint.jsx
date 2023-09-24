@@ -7,6 +7,7 @@ import line from '../assets/line.svg'
 import shape1 from '../assets/circle-01.png'
 import shape2 from '../assets/circle-02.png'
 import shape3 from '../assets/header-left-shape-4.png'
+import tocenomics from '../assets/tocenomics.png'
 
 function Mint() {
   return (
@@ -21,67 +22,48 @@ function Mint() {
           <div className="mint-title">
             <h2 className="text-center">Tokenomics</h2>
           </div>
-          <div className="mint-main-section-wrapper">
+          <div className="tocenomics-section-wrapper">
             <div className="row">
               <div className="col-md-6">
-                <div className="mint-single-item-wrapper">
-                  <div className="mint-single-item d-flex">
-                    <div className="mint-img">
-                      <img src={mint1} alt="" />
-                    </div>
-                    <div className="mint-single-item-details">
-                      <h3>Connect your wallet</h3>
-                      <p>
-                        Use Trust Wallet, Metamask or any wallet to connect to
-                        the app.
-                      </p>
-                    </div>
-                  </div>
+                <div className="tokenomics-img">
+                  <img src={tocenomics} alt="" className="img-fluid" />
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="mint-single-item-wrapper">
-                  <div className="mint-single-item d-flex">
-                    <div className="mint-img">
-                      <img src={mint2} alt="" />
+                <div className="tocenomics-details-wrapper">
+                  <h2>Token Distribution</h2>
+                  <div className="token-list">
+                    <div className="token-list-item" >
+                      <span style={{background:'#E86448'}} ></span>
+                      <span>Total Supply - 1,000,000,000,000,000</span>
                     </div>
-                    <div className="mint-single-item-details">
-                      <h3>Select your quantity</h3>
-                      <p>
-                        Use Trust Wallet, Metamask or any wallet to connect to
-                        the app.
-                      </p>
+                    <div className="token-list-item" >
+                      <span style={{background:'#4E7EEB'}} ></span>
+                      <span>Liqudity - 0.5%</span>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="mint-single-item-wrapper">
-                  <div className="mint-single-item d-flex">
-                    <div className="mint-img">
-                      <img src={mint3} alt="" />
+                    <div className="token-list-item" >
+                      <span style={{background:'#40EC98'}} ></span>
+                      <span>Ecosystem - 10%</span>
                     </div>
-                    <div className="mint-single-item-details">
-                      <h3>Confirm transaction</h3>
-                      <p>
-                        Earn ETH and BIT for all your NFTs that you sell on our
-                        marketplace.
-                      </p>
+                    <div className="token-list-item" >
+                      <span style={{background:'#B80064'}} ></span>
+                      <span>Burn 63%</span>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="mint-single-item-wrapper">
-                  <div className="mint-single-item d-flex">
-                    <div className="mint-img">
-                      <img src={mint4} alt="" />
+                    <div className="token-list-item" >
+                      <span style={{background:'#9F9F3A'}} ></span>
+                      <span>NFT treasury 5%</span>
                     </div>
-                    <div className="mint-single-item-details">
-                      <h3>Receive your NFTs</h3>
-                      <p>
-                        Latin professor at Hampden-Sydney College in Virginia.
-                      </p>
+                    <div className="token-list-item" >
+                      <span style={{background:'#03FD00'}} ></span>
+                      <span>P2E game 6.5%</span>
+                    </div>
+                    <div className="token-list-item" >
+                      <span style={{background:'#9B4273'}} ></span>
+                      <span>Marketing 5%</span>
+                    </div>
+                    <div className="token-list-item" >
+                      <span style={{background:'#8A8A8A'}} ></span>
+                      <span>Staking 10%</span>
                     </div>
                   </div>
                 </div>

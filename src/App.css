@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6{
 
 .home-header-wrapper {
   position: relative;
+  /* padding-left:0; */
 }
 
 .logo {
@@ -59,6 +60,7 @@ h1, h2, h3, h4, h5, h6{
   border-bottom: 1px solid #dddddd3d;
   z-index: 10;
   transition: .3s;
+  left:0;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   font-size: 20px;
@@ -370,6 +372,49 @@ h1, h2, h3, h4, h5, h6{
   margin: 0 0;
   color: var(--text-color);
 }
+
+
+
+/* ------------------------- TOCENOMISCS SECTION CSS ---------------- */
+.tocenomics-details-wrapper{
+  margin-left:3rem;
+}
+.tocenomics-section-wrapper{
+  margin-top:5rem;
+}
+.tocenomics-details-wrapper h2{
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-top:2.5rem;
+}
+.tocenomics-details-wrapper .token-list{
+  margin-top:2rem;
+}
+.tocenomics-details-wrapper .token-list .token-list-item{
+  display: flex;
+  align-items: center;
+  margin-top:1rem;
+}
+.token-list-item span:first-child{
+  width:1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.token-list-item span:last-child{
+  font-size: 19px;
+  color:var(--text-color);
+  margin-left: .6rem;
+}
+
+
+
+
+
+
+
+
 
 /* ----------------------------CONNECT SECTION CSS -------------------- */
 

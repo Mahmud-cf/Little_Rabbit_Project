@@ -47,23 +47,23 @@ function Mint() {
                     </div>
                     <div className="token-list-item" >
                       <span style={{background:'#B80064'}} ></span>
-                      <span>Burn 63%</span>
+                      <span>Burn - 63%</span>
                     </div>
                     <div className="token-list-item" >
                       <span style={{background:'#9F9F3A'}} ></span>
-                      <span>NFT treasury 5%</span>
+                      <span>NFT treasury - 5%</span>
                     </div>
                     <div className="token-list-item" >
                       <span style={{background:'#03FD00'}} ></span>
-                      <span>P2E game 6.5%</span>
+                      <span>P2E game - 6.5%</span>
                     </div>
                     <div className="token-list-item" >
                       <span style={{background:'#9B4273'}} ></span>
-                      <span>Marketing 5%</span>
+                      <span>Marketing - 5%</span>
                     </div>
                     <div className="token-list-item" >
                       <span style={{background:'#8A8A8A'}} ></span>
-                      <span>Staking 10%</span>
+                      <span>Staking - 10%</span>
                     </div>
                   </div>
                 </div>

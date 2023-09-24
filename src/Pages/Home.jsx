@@ -115,8 +115,8 @@ function Home() {
       <div className="powerd-by-div-wrapper">
         <div className="container-fluid">
           <div className="container">
-            <h5 className="text-center powerd-by-title">
-              LISTED ON :
+            <h5 className="text-center powerd-by-title" style={{letterSpacing:'1px'}} >
+            POWERED BY AMAZING INVESTORS:
             </h5>
             <div className="powerd-by-item-wrapper">
               <ListedItem />

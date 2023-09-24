@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6{
 .powerd-by-item-wrapper {
   margin-top: 1.5rem;
 }
-.powerd-by-item-wrapper svg {
+.powerd-by-item-wrapper a img {
   width: 10rem;
 }
 .powerd-by-item-wrapper .d-flex {
@@ -605,6 +605,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: rgb(15, 5, 29, .9) ;
     padding:9rem 0;
     position: relative;
+    margin-bottom:3rem;
   }
   .leats-start-shape-wrapper img{
     position: absolute;
@@ -676,7 +677,9 @@ h1, h2, h3, h4, h5, h6{
   background-color: #2600fc;
   background-image: linear-gradient(25deg, #0d6efd, #ff00ea);
 }
-
+.owner-wrapper .owner-details p{
+  color:var(--text-color)
+}
 
 
 /* ------------------- Footer SECTION CSS ---------------------- */

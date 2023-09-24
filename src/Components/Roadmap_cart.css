@@ -133,5 +133,8 @@
   font-weight: 800;
   color:#B7B4BB
 }
+.swiper-backface-hidden .swiper-slide{
+  width:300px!important;
+}
 
 

@@ -7,7 +7,7 @@ const Owner = () => {
       <div className="container-fluid">
         <div className="container">
           <div className="row justify-content-center align-items-center">
-            <div className="owner-details col-sm-6">
+            <div className="owner-details col-md-6">
               <p className="short-title">OWNER OF THE CONTRACT</p>
               <h2>Who is the owner of the Contract?</h2>
               <p>
@@ -16,7 +16,7 @@ const Owner = () => {
                 changed. Now $LTRBT is even more Decentralised.
               </p>
             </div>
-            <div className="owner-img col-sm-6">
+            <div className="owner-img col-md-6">
               <img src={ownerImg} alt="Owner image" className="img-fluid" />
             </div>
           </div>

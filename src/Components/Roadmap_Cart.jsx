@@ -18,7 +18,7 @@ export default function Roadmap_Cart() {
   const [swiperRef, setSwiperRef] = useState(null);
 
   let appendNumber = 4;
-  let prependNumber = 1;
+  let prependNumber = 2;
 
   const prepend2 = () => {
     swiperRef.prependSlide([
@@ -50,7 +50,7 @@ export default function Roadmap_Cart() {
     <>
       <Swiper
         onSwiper={setSwiperRef}
-        slidesPerView={3}
+        slidesPerView={window.innerWidth > 768 ? 2 : 1}
         centeredSlides={true}
         spaceBetween={30}
         pagination={{
@@ -58,7 +58,7 @@ export default function Roadmap_Cart() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className={`mySwiper ${window.innerWidth < 768 ? 'left-align' : ''}`}
       >
         <SwiperSlide>
           <div className="roadmap-cart-wrapper">

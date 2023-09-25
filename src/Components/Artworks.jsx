@@ -67,13 +67,13 @@ const Artworks = () => {
       <div className="artworks-wrapper" id='artworks'>
         <div className="container-fluid">
           <div className="container">
-            <div className="mint-title">
+            <div className="mint-title" data-aos="fade-up">
               <h2 className="text-center">Latest artworks</h2>
             </div>
             <div className="cards row">
               {
                 artworksData.map((data) => (
-                  <div key={data.id} className="card">
+                  <div key={data.id} className="card"  data-aos="fade-up" >
                     <a href="https://3dnftmint.littlerabbitswap.com/" target="blank"><img className="img-fluid" src={data.img} alt="" /></a>
                     <h3>#{data.title}</h3>
                     <p>By <a href="https://3dnftmint.littlerabbitswap.com/" target="blank">{data.author}</a></p>
@@ -89,7 +89,7 @@ const Artworks = () => {
             </div>
             </div>
           </div>
-          <div className="line-svg">
+          <div className="line-svg" data-aos="zoom-in">
           <img src={line} alt="" />
         </div>
         </div>

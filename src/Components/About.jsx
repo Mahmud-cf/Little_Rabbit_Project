@@ -7,20 +7,20 @@ function About() {
     <div className="about-section-wapper" id="about" >
       <div className="container-fluid">
         <div className="container">
-          <div className="mint-title">
+          <div className="mint-title"  data-aos="fade-up" >
             <h2 className="text-center">About the platform</h2>
           </div>
           <div className="about-main-section">
             <div className="row">
               <div className="col-md-6">
-                <div className="about-left-part">
+                <div className="about-left-part" data-aos="fade-left">
                   <div className="about-img">
                     <img src={about} alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="about-details-wrapper">
+                <div className="about-details-wrapper" data-aos="fade-right">
                   <p className="about-title-short">Little Rabit</p>
                   <h2>What is Little Rabbit?</h2>
                   <p className="about-details">

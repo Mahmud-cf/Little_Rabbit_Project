@@ -14,19 +14,19 @@ function Connect() {
                 <div className="connect-div">
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="connect-title-para text-center">
+                            <div className="connect-title-para text-center"  data-aos="zoom-in" >
                                 <h2>15,000+</h2>
                                 <p>Wallets Connected</p>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="connect-title-para text-center">
+                            <div className="connect-title-para text-center" data-aos="zoom-in">
                                 <h2>40,000+</h2>
                                 <p>Telegram Members</p>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="connect-title-para text-center">
+                            <div className="connect-title-para text-center" data-aos="zoom-in">
                                 <h2>$1,257,773</h2>
                                 <p>Market Cap</p>
                             </div>
@@ -34,7 +34,7 @@ function Connect() {
                     </div>
                 </div>
             </div>
-            <div className="line-svg">
+            <div className="line-svg"  data-aos="zoom-in" >
           <img src={line} alt="" />
         </div>
         </div>

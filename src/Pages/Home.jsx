@@ -28,7 +28,7 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-6">
-                <div className="header-left-shape-wrapper">
+                <div className="header-left-shape-wrapper"  >
                   <img
                     src={header_left_shape_1}
                     alt=""
@@ -50,7 +50,7 @@ function Home() {
                     className="header-left-shape-4"
                   />
                 </div>
-                <div className="header-left-part-wrapper">
+                <div className="header-left-part-wrapper" data-aos="fade-up" >
                   <h2>Little Rabbit</h2>
                   <p>
                   Whether you're seasoned investor or new to the world of cryptocurrency, Little Rabbit offers something for everyone.
@@ -61,7 +61,7 @@ function Home() {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="header-image-benner">
+                <div className="header-image-benner" data-aos="fade-up" >
                   <div className="round-circle-text">{/* <RotateText/> */}</div>
                   <div className="header-shape-image">
                     <div>
@@ -112,17 +112,19 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="powerd-by-div-wrapper">
+      <div className="powerd-by-div-wrapper" >
         <div className="container-fluid">
           <div className="container">
+            <div  data-aos="fade-up" > 
             <h5 className="text-center powerd-by-title" style={{letterSpacing:'1px'}} >
             Listed on :
             </h5>
-            <div className="powerd-by-item-wrapper">
+            <div className="powerd-by-item-wrapper" >
               <ListedItem />
             </div>
+            </div>
           </div>
-          <div className="line-svg">
+          <div className="line-svg"  data-aos="zoom-in" >
             <img src={line} alt="" />
           </div>
         </div>

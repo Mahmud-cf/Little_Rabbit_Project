@@ -19,10 +19,10 @@ function Mint() {
                 <img src={shape2} alt="" className="mint-shape-2" />
                 <img src={shape3} alt="" className="mint-shape-3" />
             </div>
-          <div className="mint-title">
+          <div className="mint-title"  data-aos="fade-up" >
             <h2 className="text-center">Tokenomics</h2>
           </div>
-          <div className="tocenomics-section-wrapper">
+          <div className="tocenomics-section-wrapper"  data-aos="fade-up" >
             <div className="row">
               <div className="col-md-6">
                 <div className="tokenomics-img">
@@ -71,7 +71,7 @@ function Mint() {
             </div>
           </div>
         </div>
-        <div className="line-svg">
+        <div className="line-svg" data-aos="zoom-in" >
           <img src={line} alt="" />
         </div>
       </div>

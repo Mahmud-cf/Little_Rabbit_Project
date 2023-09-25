@@ -7,14 +7,14 @@ function Roadmap() {
     <div className="roadmap-wrapper" id="roadmap">
       <div className="container-fluid">
         <div className="container">
-          <div className="mint-title">
+          <div className="mint-title" data-aos="fade-up">
             <h2 className="text-center">Little Rabbit Roadmap</h2>
           </div>
           <div className="roadmap-main-section-wrapper">
             <Roadmap_Cart/>
           </div>
         </div>
-        <div className="line-svg">
+        <div className="line-svg" data-aos="zoom-in" >
           <img src={line} alt="" />
         </div>
       </div>

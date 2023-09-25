@@ -7,10 +7,10 @@ function AskQuestion() {
     <div className="ask-question-wrapper" id="question" >
       <div className="container-fluid">
         <div className="container">
-          <div className="mint-title">
+          <div className="mint-title" data-aos="fade-up" >
             <h2 className="text-center">Asked Questions</h2>
           </div>
-          <div className="ask-question-item-wrapper">
+          <div className="ask-question-item-wrapper"  data-aos="fade-up" >
             <AskQuestionItem/>
           </div>
         </div>

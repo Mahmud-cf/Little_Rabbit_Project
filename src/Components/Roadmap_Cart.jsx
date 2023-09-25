@@ -60,7 +60,7 @@ export default function Roadmap_Cart() {
         modules={[Pagination, Navigation]}
         className={`mySwiper ${window.innerWidth < 768 ? 'left-align' : ''}`}
       >
-        <SwiperSlide  data-aos="zoom-in" >
+        <SwiperSlide  >
           <div className="roadmap-cart-wrapper">
             <div className="r-cart-top">
               <div className="d-flex">
@@ -81,7 +81,7 @@ export default function Roadmap_Cart() {
               </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide data-aos="zoom-in" >
+        <SwiperSlide >
           <div className="roadmap-cart-wrapper">
             <div className="r-cart-top">
               <div className="d-flex">
@@ -102,7 +102,7 @@ export default function Roadmap_Cart() {
               </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide data-aos="zoom-in" >
+        <SwiperSlide  >
           <div className="roadmap-cart-wrapper">
             <div className="r-cart-top">
               <div className="d-flex">
@@ -123,7 +123,7 @@ export default function Roadmap_Cart() {
               </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide data-aos="zoom-in" >
+        <SwiperSlide  >
           <div className="roadmap-cart-wrapper">
             <div className="r-cart-top">
               <div className="d-flex">
